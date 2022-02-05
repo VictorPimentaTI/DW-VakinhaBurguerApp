@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
 
-class VakinhaTextformfiled extends StatelessWidget {
+class VakinhaTextformfield extends StatelessWidget {
 
   final String label;
   final TextEditingController? controller;
@@ -9,7 +9,7 @@ class VakinhaTextformfiled extends StatelessWidget {
   final FormFieldValidator<String>? validator;
   final ValueChanged<String>? onChange;
 
-  const VakinhaTextformfiled({ 
+  const VakinhaTextformfield({ 
     Key? key,
     required this.label,
     this.controller,
