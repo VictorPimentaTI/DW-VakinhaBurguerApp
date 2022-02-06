@@ -1,10 +1,12 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vakinha_burger_mobile/app/core/ui/vakinha_state.dart';
 import 'package:vakinha_burger_mobile/app/core/ui/vakinha_ui.dart';
-import 'package:vakinha_burger_mobile/app/core/widgets/vakinha_appbar.dart';
-import 'package:vakinha_burger_mobile/app/core/widgets/vakinha_button.dart';
-import 'package:vakinha_burger_mobile/app/core/widgets/vakinha_textformfield.dart';
+import 'package:vakinha_burger_mobile/app/core/ui/widgets/vakinha_appbar.dart';
+import 'package:vakinha_burger_mobile/app/core/ui/widgets/vakinha_button.dart';
+import 'package:vakinha_burger_mobile/app/core/ui/widgets/vakinha_textformfield.dart';
 import 'package:vakinha_burger_mobile/app/modules/auth/login/login_controller.dart';
 import 'package:validatorless/validatorless.dart';
 
