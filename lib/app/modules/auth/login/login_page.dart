@@ -114,7 +114,7 @@ class _LoginPageState extends VakinhaState<LoginPage, LoginController> {
                                  },
                                  child: const Text(
                                    'Cadastre-se',
-                                   style: VakinhaUi.textBold,
+                                   style: VakinhaUI.textBold,
                                  ),
                                )
                               ],
